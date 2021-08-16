@@ -1,0 +1,71 @@
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+  border-radius: 50%;
+}
+
+.container :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 1;
+}
+
+@media screen and (max-width: 40em) {
+  .container :global(.vtex-modal-layout-0-x-triggerContainer) {
+    display: none;
+  }
+}
+.element :global(.vtex-button){
+  font-weight:bold;
+  padding:20px 0 23px;
+}
+.buyButton :global(.vtex-button){
+  font-weight:bold;
+  padding:16px 0 13px;
+}
+.price_installmentContainer{
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color:#333;
+}
+.priceContainer{padding:0}
+.buyButtonContainer{padding-top:0;}
+.buyButton :global(.vtex-button__label){padding:0 !important;}
+.nameContainer {
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: 1rem;
+}
+
+.brandName,
+.productBrand{
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+  text-transform:uppercase;
+}
+.productNameContainer{line-height:17px;}
+.imageNormal{height:250px;}
+.container {
+  text-align: center;
+  border:1px solid #E8E8E8;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius:5px;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.image {
+  border-radius: 0.25rem;
+}
+@media only screen and (max-width: 639px) {
+  .element :global(.vtex-button){
+    font-size:10px;
+    padding:15px 0;
+  }
+  .brandName{font-size:12px;}
+}

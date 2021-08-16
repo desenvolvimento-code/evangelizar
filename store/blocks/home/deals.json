@@ -1,0 +1,96 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "children": [
+      "image#deal1",
+      "rich-text#deal1"
+    ]
+  },
+  "image#deal1": {
+    "props": {
+      "src": "/arquivos/entrega-nacional.svg",
+      "maxHeight": "30px",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "**ENTREGA NACIONAL** ENTREGAMOS PARA TODO *O BRASIL*",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
+    ],
+    "props": {
+      "blockClass": "noborder-mobile"
+    }
+  },
+  "image#deal2": {
+    "props": {
+      "src": "/arquivos/parcelamento.svg",
+      "maxHeight": "27px",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "**PARCELAMENTO** PARCELE SUAS COMPRAS *EM ATÉ 6X*",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ]
+  },
+  "image#deal3": {
+    "props": {
+      "src": "/arquivos/produtos-originais.svg",
+      "maxHeight": "34px",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "**PRODUTOS ORIGINAIS** PRODUTOS ORIGINAIS DE JESUS *DAS SANTAS CHAGAS*",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "children": [
+      "image#deal4",
+      "rich-text#deal4"
+    ],
+    "props": {
+      "blockClass": "noborder"
+    }
+  },
+  "image#deal4": {
+    "props": {
+      "src": "/arquivos/site-seguro.svg",
+      "maxHeight": "30px",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "**SITE 100% SEGURO** FAÇA SUAS COMPRAS *COM TRANQUILIDADE*",
+      "blockClass": "deals"
+    }
+  }
+}

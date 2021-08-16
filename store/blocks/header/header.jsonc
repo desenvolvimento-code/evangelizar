@@ -1,0 +1,290 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "sticky-layout#2-desktop"
+    ]
+  },
+
+  "flex-layout.row#1-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#site-seguro",
+      // "flex-layout.col#spacer",
+      "flex-layout.col#contato-topo"
+    ]
+  },
+  "flex-layout.col#site-seguro":{
+    "children":[
+      "rich-text#site-seguro"
+    ]
+  },
+  "flex-layout.col#contato-topo":{
+    "children":[
+      "rich-text#contato-topo"
+    ]
+  },
+  "rich-text#site-seguro": {
+    "props": {
+      "blockClass": "text-top",
+      "text": "![security](/arquivos/security.svg) **Site 100% seguro**"
+    }
+  },
+  "rich-text#contato-topo": {
+    "props": {
+      "blockClass": "text-top",
+      "text": "**DÚVIDAS?** [41 3221-6050](https://www.example.com) OU PELO [FALE CONOSCO](https://www.example.com)"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#2-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#4-desktop",
+      "flex-layout.row#menu"
+    ]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar",
+      "rich-text#doacao",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "MINHA CONTA",
+      "accessCodeTitle": "Código de Acesso",
+      "emailPlaceholder": "E-mail",
+      "passwordPlaceholder": "Senha",
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "icon-cart#minicart-icon": {
+    "props": {
+      "size": 27
+    }
+  },
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+  },
+  "flex-layout.row#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+  "flex-layout.col#minicart-footer": {
+    "children": ["minicart-summary", "minicart-checkout-button"]
+  },
+  "minicart-product-list": {
+    "blocks": ["product-list#minicart"]
+  },
+  "product-list#minicart": {
+    "blocks": ["product-list-content-mobile"]
+  },
+  "minicart-summary": {
+    "blocks": ["checkout-summary.compact#minicart"]
+  },
+
+  "checkout-summary.compact#minicart": {
+    "children": ["summary-totalizers#minicart"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts"]
+    }
+  },
+  "summary-totalizers#minicart": {
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": false
+    }
+  },
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#empty-state"]
+  },
+  "flex-layout.row#empty-state": {
+    "children": ["flex-layout.col#empty-state"]
+  },
+  "flex-layout.col#empty-state": {
+    "children": [
+      "icon-cart#minicart-empty-state",
+      "rich-text#minicart-default-empty-state"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5
+    }
+  },
+  "icon-cart#minicart-empty-state": {
+    "props": {
+      "size": 64,
+      "blockClass": "minicart-empty-state"
+    }
+  },
+  "rich-text#minicart-default-empty-state": {
+    "props": {
+      "text": "Seu carrinho está vazio."
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "search-bar":{
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "O que você procura?",
+      "inputType": "search"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
+  "flex-layout.row#menu":{
+    "props": {
+      "blockClass": "main-menu",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children":[
+      "flex-layout.col#category-menu"
+    ]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo.svg",
+      "width": "124"
+    }
+  },
+  "rich-text#doacao":{
+    "props": {
+      "text": "[**FAÇA SUA DOAÇÃO**](https://www.example.com)",
+      "blockClass": "doacao"
+    }
+  },
+  "header-layout.mobile": {
+    "props":{
+      "blockClass":"topbar-mobile"
+    },
+    "children": [
+      "flex-layout.row#2-mobile",
+      "sticky-layout#1-mobile"
+    ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#3-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "login",
+      "rich-text#meus-pedidos",
+      "vtex.menu@2.x:menu#category-menu-mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo.svg",
+      "width": "76"
+    }
+  },
+  "flex-layout.row#2-mobile": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#contato-topo"
+    ]
+  },
+  "rich-text#meus-pedidos":{
+    "props": {
+      "text": "[**Meus pedidos**](/account/orders)",
+      "blockClass": "meus-pedidos"
+    }
+  },
+  "flex-layout.row#3-mobile": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "search-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  }
+}

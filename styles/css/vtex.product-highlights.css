@@ -1,0 +1,13 @@
+.productHighlightWrapper--collection {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.productHighlightText {
+  display:block;
+  height:65px;
+  width:65px;
+  background:url(/arquivos/selo-original.svg);
+  font-size:0;
+}

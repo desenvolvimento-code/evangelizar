@@ -1,0 +1,189 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "flex-layout.row#product-shelf1",
+      "flex-layout.row#description",
+      "flex-layout.row#specifications-title",
+      "product-specification-group#table",
+      "product-reviews",
+      "product-questions-and-answers",
+      "flex-layout.row#product-shelf2",
+      "flex-layout.row#product-shelf3"
+    ]
+  },
+  "flex-layout.row#specifications-title": {
+    "children": [
+      "rich-text#specifications"
+    ]
+  },
+  "rich-text#specifications": {
+    "props": {
+      "blockClass":"specifications",
+      "text": "##### ESPECIFICAÇÕES TÉCNICAS"
+    }
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 0
+    },
+    "children": ["breadcrumb"]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": ["product-description"]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 5,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+  },
+
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image",
+      "product-bookmark",
+      "product-specification-badges"
+    ]
+  },
+
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+
+  "flex-layout.col#stack": {
+    "children": ["stack-layout"],
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    }
+  },
+  "flex-layout.row#product-image": {
+    "children": ["product-images"]
+  },
+  "product-images": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "16:9"
+      },
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "blockClass":"product-info",
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "product-identifier.product",
+      "product-rating-summary",
+      "product-separator",
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price",
+      "product-installments",
+      "sku-selector",
+      "product-assembly-options",
+      "product-gifts",
+      "flex-layout.row#buy-button",
+      "product-separator",
+      "availability-subscriber",
+      "shipping-simulator",
+      "flex-layout.row#selos1",
+      "flex-layout.row#selos2"
+    ]
+  },
+
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": ["vtex.store-components:product-name"]
+  },
+
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true
+    }
+  },
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "blockClass":"bt-comprar",
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": ["add-to-cart-button"]
+  },
+  "flex-layout.row#selos1":{
+    "children": [
+      "rich-text#selos1"
+    ]
+  },
+  "rich-text#selos1":{
+    "props": {
+      "blockClass":"selos-title",
+      "text": "##### SELOS E SEGURANÇA"
+    }
+  },
+  "flex-layout.row#selos2":{
+    "props":{
+      "blockClass":"selos-content"
+    },
+    "children": [
+      "image#selos1",
+      "image#selos2",
+      "image#selos3"
+    ]
+  },
+  "image#selos1": {
+    "props": {
+      "src": "/arquivos/google-selo.png"
+    }
+  },
+  "image#selos2": {
+    "props": {
+      "src": "/arquivos/google-selo.png"
+    }
+  },
+  "image#selos3": {
+    "props": {
+      "src": "/arquivos/google-selo.png"
+    }
+  },
+  "flex-layout.row#product-shelf1":{
+    "children":[
+      "shelf.relatedProducts"
+    ]
+  },
+  "flex-layout.row#product-shelf2":{
+    "children":[
+      "shelf.relatedProducts"
+    ]
+  },
+  "flex-layout.row#product-shelf3":{
+    "children":[
+      "shelf.relatedProducts"
+    ]
+  }
+}

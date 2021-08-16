@@ -1,0 +1,134 @@
+{
+  "vtex.menu@2.x:menu#menu-footer-1": {
+    "props": {
+      "blockClass": "menu-footer",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sobre",
+      "menu-item#nossas-lojas",
+      "menu-item#politica-entrega",
+      "menu-item#contato"
+    ]
+  },
+  "menu-item#sobre": {
+    "props": {
+      "id": "menu-item-sobre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sobre",
+        "noFollow": false,
+        "tagTitle": "Sobre",
+        "text": "Sobre"
+      }
+    }
+  },
+  "menu-item#nossas-lojas": {
+    "props": {
+      "id": "menu-item-nossas-lojas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "Nossas Lojas",
+        "text": "Nossas Lojas"
+      }
+    }
+  },
+  "menu-item#politica-entrega": {
+    "props": {
+      "id": "menu-item-politica-entrega",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "politica-entrega",
+        "noFollow": false,
+        "tagTitle": "Política de Entrega",
+        "text": "Política de Entrega"
+      }
+    }
+  },
+  "menu-item#contato": {
+    "props": {
+      "id": "menu-item-contato",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contato",
+        "noFollow": false,
+        "tagTitle": "Contato",
+        "text": "Contato"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#menu-footer-2": {
+    "props": {
+      "blockClass": "menu-footer",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#termos",
+      "menu-item#troca-devolucao",
+      "menu-item#garantia"
+    ]
+  },
+
+  "menu-item#termos": {
+    "props": {
+      "id": "menu-item-termos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/termos",
+        "noFollow": false,
+        "tagTitle": "Termos e Condições",
+        "text": "Termos e Condições"
+      }
+    }
+  },
+
+  "menu-item#troca-devolucao": {
+    "props": {
+      "id": "menu-item-troca-devolucao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/troca-devolucao",
+        "noFollow": false,
+        "tagTitle": "Troca e Devolução",
+        "text": "Troca e Devolução"
+      }
+    }
+  },
+
+  "menu-item#garantia": {
+    "props": {
+      "id": "menu-item-garantia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/garantia",
+        "noFollow": false,
+        "tagTitle": "Garantia",
+        "text": "Garantia"
+      }
+    }
+  }
+}

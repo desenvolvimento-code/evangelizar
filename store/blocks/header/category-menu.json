@@ -1,0 +1,1085 @@
+{
+  "vtex.menu@2.x:menu#category-menu-mobile": {
+    "children": [
+      "menu-item#mobile-1",
+      "menu-item#mobile-2",
+      "menu-item#mobile-3",
+      "menu-item#mobile-4",
+      "menu-item#mobile-5",
+      "menu-item#mobile-6",
+      "menu-item#mobile-7",
+      "menu-item#mobile-8",
+      "menu-item#mobile-9"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-mobile"
+    }
+  },
+  "menu-item#mobile-1": {
+    "props": {
+      "id": "menu-item-mobile-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "LANÇAMENTOS",
+        "text": "LANÇAMENTOS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-1"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-1": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-1"
+    ]
+  },
+  "flex-layout.row#mobile-1":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-1"
+    ]
+  },
+  "flex-layout.col#mobile-1":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-1-1"
+    ]
+  },  
+  "vtex.menu@2.x:menu#mobile-1-1": {
+    "children": [
+      "menu-item#mobile-1-1-1",
+      "menu-item#mobile-1-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-1-1-1": {
+    "props": {
+      "id": "menu-item-mobile-1-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos",
+        "noFollow": false,
+        "tagTitle": "Ver tudo em lançamentos",
+        "text": "Ver tudo em lançamentos"
+      }
+    }
+  },
+  "menu-item#mobile-1-1-2": {
+    "props": {
+      "id": "menu-item-mobile-1-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 1 2",
+        "text": "Mobile 1 2"
+      }
+    }
+  },
+  "menu-item#mobile-2": {
+    "props": {
+      "id": "menu-item-mobile-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "ACESSÓRIOS",
+        "text": "ACESSÓRIOS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-2"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-2": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-2"
+    ]
+  },
+  "flex-layout.row#mobile-2":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-2"
+    ]
+  },
+  "flex-layout.col#mobile-2":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-2-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile-2-1": {
+    "children": [
+      "menu-item#mobile-2-1-1",
+      "menu-item#mobile-2-1-2",
+      "menu-item#mobile-2-1-3",
+      "menu-item#mobile-2-1-4",
+      "menu-item#mobile-2-1-5"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-2-1-1": {
+    "props": {
+      "id": "menu-item-mobile-2-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Ver tudo em acessórios",
+        "text": "Ver tudo em acessórios"
+      }
+    }
+  },
+  "menu-item#mobile-2-1-2": {
+    "props": {
+      "id": "menu-item-mobile-2-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pulseiras",
+        "noFollow": false,
+        "tagTitle": "PULSEIRAS",
+        "text": "PULSEIRAS"
+      }
+    }
+  },
+  "menu-item#mobile-2-1-3": {
+    "props": {
+      "id": "menu-item-mobile-2-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colar",
+        "noFollow": false,
+        "tagTitle": "COLAR, CORRENTE, CORDÃO",
+        "text": "COLAR, CORRENTE, CORDÃO"
+      }
+    }
+  },
+  "menu-item#mobile-2-1-4": {
+    "props": {
+      "id": "menu-item-mobile-2-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/escapularios",
+        "noFollow": false,
+        "tagTitle": "ESCAPULÁRIOS",
+        "text": "ESCAPULÁRIOS"
+      }
+    }
+  },
+  "menu-item#mobile-2-1-5": {
+    "props": {
+      "id": "menu-item-mobile-2-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dezenas",
+        "noFollow": false,
+        "tagTitle": "DEZENAS PARA CARRO",
+        "text": "DEZENAS PARA CARRO"
+      }
+    }
+  },
+  "menu-item#mobile-3": {
+    "props": {
+      "id": "menu-item-mobile-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "TERÇO E DEZENA",
+        "text": "TERÇO E DEZENA"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-3"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-3": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-3"
+    ]
+  },
+  "flex-layout.row#mobile-3":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-3"
+    ]
+  },
+  "flex-layout.col#mobile-3":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-3-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile-3-1": {
+    "children": [
+      "menu-item#mobile-3-1-1",
+      "menu-item#mobile-3-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-3-1-1": {
+    "props": {
+      "id": "menu-item-mobile-3-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terco",
+        "noFollow": false,
+        "tagTitle": "Ver tudo em terços e dezenas",
+        "text": "Ver tudo em terços e dezenas"
+      }
+    }
+  },
+  "menu-item#mobile-3-1-2": {
+    "props": {
+      "id": "menu-item-mobile-3-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 3 2",
+        "text": "Mobile 3 2"
+      }
+    }
+  },
+  "menu-item#mobile-4": {
+    "props": {
+      "id": "menu-item-mobile-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "LIVRARIA E PAPELARIA",
+        "text": "LIVRARIA E PAPELARIA"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-4"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-4": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-4"
+    ]
+  },
+  "flex-layout.row#mobile-4":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-4"
+    ]
+  },
+  "flex-layout.col#mobile-4":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-4-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile-4-1": {
+    "children": [
+      "menu-item#mobile-4-1-1",
+      "menu-item#mobile-4-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-4-1-1": {
+    "props": {
+      "id": "menu-item-mobile-4-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria",
+        "noFollow": false,
+        "tagTitle": "Ver tudo em livraria e papelaria",
+        "text": "Ver tudo em livraria e papelaria"
+      }
+    }
+  },
+  "menu-item#mobile-4-1-2": {
+    "props": {
+      "id": "menu-item-mobile-4-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 4 2",
+        "text": "Mobile 4 2"
+      }
+    }
+  },
+  "menu-item#mobile-5": {
+    "props": {
+      "id": "menu-item-mobile-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "VESTUÁRIO",
+        "text": "VESTUÁRIO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-5"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-5": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-5"
+    ]
+  },
+  "flex-layout.row#mobile-5":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-5"
+    ]
+  },
+  "flex-layout.col#mobile-5":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-5-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile-5-1": {
+    "children": [
+      "menu-item#mobile-5-1-1",
+      "menu-item#mobile-5-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-5-1-1": {
+    "props": {
+      "id": "menu-item-mobile-5-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario",
+        "noFollow": false,
+        "tagTitle": "Ver tudo em vestuário",
+        "text": "Ver tudo em vestuário"
+      }
+    }
+  },
+  "menu-item#mobile-5-1-2": {
+    "props": {
+      "id": "menu-item-mobile-5-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 5 2",
+        "text": "Mobile 5 2"
+      }
+    }
+  },
+  "menu-item#mobile-6": {
+    "props": {
+      "id": "menu-item-mobile-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "PRESENTE E DECORAÇÃO",
+        "text": "PRESENTE E DECORAÇÃO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-6"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-6": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-6"
+    ]
+  },
+  "flex-layout.row#mobile-6":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-6"
+    ]
+  },
+  "flex-layout.col#mobile-6":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-6-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile-6-1": {
+    "children": [
+      "menu-item#mobile-6-1-1",
+      "menu-item#mobile-6-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-6-1-1": {
+    "props": {
+      "id": "menu-item-mobile-6-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presentes",
+        "noFollow": false,
+        "tagTitle": "Ver tudo em presentes e decoração",
+        "text": "Ver tudo em presentes e decoração"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-2": {
+    "props": {
+      "id": "menu-item-mobile-6-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 6 2",
+        "text": "Mobile 6 2"
+      }
+    }
+  },
+  "menu-item#mobile-7": {
+    "props": {
+      "id": "menu-item-mobile-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "IMAGENS",
+        "text": "IMAGENS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-7"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-7": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-7"
+    ]
+  },
+  "flex-layout.row#mobile-7":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-7"
+    ]
+  },
+  "flex-layout.col#mobile-7":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-7-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile-7-1": {
+    "children": [
+      "menu-item#mobile-7-1-1",
+      "menu-item#mobile-7-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-7-1-1": {
+    "props": {
+      "id": "menu-item-mobile-7-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/imagens",
+        "noFollow": false,
+        "tagTitle": "Ver tudo em Imagens",
+        "text": "Ver tudo em Imagens"
+      }
+    }
+  },
+  "menu-item#mobile-7-1-2": {
+    "props": {
+      "id": "menu-item-mobile-7-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 7 2",
+        "text": "Mobile 7 2"
+      }
+    }
+  },
+  "menu-item#mobile-8": {
+    "props": {
+      "id": "menu-item-mobile-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "CD E DVD",
+        "text": "CD E DVD"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-8"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-8": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-8"
+    ]
+  },
+  "flex-layout.row#mobile-8":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-8"
+    ]
+  },
+  "flex-layout.col#mobile-8":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-8-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile-8-1": {
+    "children": [
+      "menu-item#mobile-8-1-1",
+      "menu-item#mobile-8-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-8-1-1": {
+    "props": {
+      "id": "menu-item-mobile-8-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cds-dvds",
+        "noFollow": false,
+        "tagTitle": "Ver tudo em CDS e DVDS",
+        "text": "Ver tudo em CDS e DVDS"
+      }
+    }
+  },
+  "menu-item#mobile-8-1-2": {
+    "props": {
+      "id": "menu-item-mobile-8-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 8 2",
+        "text": "Mobile 8 2"
+      }
+    }
+  },
+  "menu-item#mobile-9": {
+    "props": {
+      "id": "menu-item-mobile-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "OUTLET",
+        "text": "OUTLET"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-9"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-9": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-9"
+    ]
+  },
+  "flex-layout.row#mobile-9":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-9"
+    ]
+  },
+  "flex-layout.col#mobile-9":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-9-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile-9-1": {
+    "children": [
+      "menu-item#mobile-9-1-1",
+      "menu-item#mobile-9-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-9-1-1": {
+    "props": {
+      "id": "menu-item-mobile-9-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/outlet",
+        "noFollow": false,
+        "tagTitle": "Ver tudo em Outlet",
+        "text": "Ver tudo em Outlet"
+      }
+    }
+  },
+  "menu-item#mobile-9-1-2": {
+    "props": {
+      "id": "menu-item-mobile-9-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 9 2",
+        "text": "Mobile 9 2"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "blockClass": "menu-principal",
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#lancamentos",
+      "menu-item#acessorios",
+      "menu-item#terco-dezena",
+      "menu-item#livraria-papelaria",
+      "menu-item#vestuario",
+      "menu-item#presente-decoracao",
+      "menu-item#imagens",
+      "menu-item#cd-dvd",
+      "menu-item#outlet"
+    ]
+  },
+  "menu-item#lancamentos": {
+    "props": {
+      "blockClass": "noicon",
+      "id": "menu-item-lancamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos",
+        "noFollow": false,
+        "tagTitle": "Lançamentos",
+        "text": "Lançamentos"
+      }
+    }
+  },
+  "menu-item#acessorios": {
+    "props": {
+      "id": "menu-item-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#acessorios"
+    ]
+  },
+  "vtex.menu@2.x:submenu#acessorios": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#acessorios"
+    ]
+  },
+  "vtex.menu@2.x:menu#acessorios": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#acessorios"
+    ]
+  },
+  "flex-layout.row#acessorios":{
+    "children": [
+      "flex-layout.col#acessorios1",
+      "flex-layout.col#acessorios2"
+    ]
+  },
+  "flex-layout.col#acessorios1":{
+    "children": [
+      "rich-text#acessorios",
+      "menu-item#acessorios-pulseiras",
+      "menu-item#acessorios-colar",
+      "menu-item#acessorios-escapulario",
+      "menu-item#acessorios-dezenas",
+      "menu-item#ver-todos-acessorios"
+    ]
+  },
+  "flex-layout.col#acessorios2":{
+    "children": [
+      "image#acessorios"
+    ]
+  },
+  "rich-text#acessorios": {
+    "props": {
+      "text": "ACESSÓRIOS",
+      "blockClass": "title-menu"
+    }
+  },
+  "menu-item#acessorios-pulseiras": {
+    "props": {
+      "id": "menu-item-acessorios-pulseiras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/pulseiras/",
+        "noFollow": false,
+        "tagTitle": "Pulseiras",
+        "text": "Pulseiras"
+      }
+    }
+  },
+  "menu-item#acessorios-colar": {
+    "props": {
+      "id": "menu-item-acessorios-colar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/colar/",
+        "noFollow": false,
+        "tagTitle": "Colar, corrente, cordão",
+        "text": "Colar, corrente, cordão"
+      }
+    }
+  },
+  "menu-item#acessorios-escapulario": {
+    "props": {
+      "id": "menu-item-acessorios-escapulario",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/escapularios/",
+        "noFollow": false,
+        "tagTitle": "Escapulários",
+        "text": "Escapulários"
+      }
+    }
+  },
+  "menu-item#acessorios-dezenas": {
+    "props": {
+      "id": "menu-item-acessorios-dezenas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/dezenas/",
+        "noFollow": false,
+        "tagTitle": "Dezenas para carro",
+        "text": "Dezenas para carro"
+      }
+    }
+  },
+  "menu-item#ver-todos-acessorios":{
+    "props": {
+      "blockClass":"menu-ver-todos",
+      "id": "menu-item-ver-todos-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Ver todos os Acessórios",
+        "text": "Ver todos os Acessórios"
+      }
+    }
+  },
+  "image#acessorios":{
+    "props": {
+      "src": "/arquivos/banner-menu.png"
+    }
+  },
+  "menu-item#terco-dezena": {
+    "props": {
+      "id": "menu-item-terco-dezena",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terco",
+        "noFollow": false,
+        "tagTitle": "Terço e Dezena",
+        "text": "Terço e Dezena"
+      }
+    }
+  },
+  "menu-item#livraria-papelaria": {
+    "props": {
+      "id": "menu-item-livraria-papelaria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria",
+        "noFollow": false,
+        "tagTitle": "Livraria e Papelaria",
+        "text": "Livraria e Papelaria"
+      }
+    }
+  },
+  "menu-item#vestuario": {
+    "props": {
+      "id": "menu-item-vestuario",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario",
+        "noFollow": false,
+        "tagTitle": "Vestuário",
+        "text": "Vestuário"
+      }
+    }
+  },
+  "menu-item#presente-decoracao": {
+    "props": {
+      "id": "menu-item-presente-decoracao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-decoracao",
+        "noFollow": false,
+        "tagTitle": "Presente e Decoração",
+        "text": "Presente e Decoração"
+      }
+    }
+  },
+  "menu-item#imagens": {
+    "props": {
+      "id": "menu-item-imagens",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/imagens",
+        "noFollow": false,
+        "tagTitle": "Imagens",
+        "text": "Imagens"
+      }
+    }
+  },
+  "menu-item#cd-dvd": {
+    "props": {
+      "id": "menu-item-cd-dvd",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cd-dvd",
+        "noFollow": false,
+        "tagTitle": "CD e DVD",
+        "text": "CD e DVD"
+      }
+    }
+  },
+  "menu-item#outlet": {
+    "props": {
+      "id": "menu-item-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/outlet",
+        "noFollow": false,
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      }
+    }
+  }
+}

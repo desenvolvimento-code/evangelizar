@@ -1,0 +1,227 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "newsletter-form",
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#footer-1-desktop",
+      "flex-layout.col#footer-2-desktop"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  },
+  "flex-layout.col#footer-1-desktop":{
+    "props":{
+      "blockClass":"container-img-footer"
+    },
+    "children": ["image#img-footer"]
+  },
+  "image#img-footer": {
+    "props": {
+      "src": "/arquivos/img-footer.png",
+      "blockClass": "img-footer"
+    }
+  },
+  "flex-layout.col#footer-2-desktop":{
+    "props": {
+      "blockClass":"menu-footer"
+    },
+    "children": [
+      "flex-layout.row#footer-2-1-desktop",
+      "flex-layout.row#footer-2-2-desktop"
+    ]
+  },
+  "flex-layout.row#footer-2-1-desktop":{
+    "children": [
+      "flex-layout.col#footer-2-1-1-desktop",
+      "flex-layout.col#footer-2-1-2-desktop",
+      "flex-layout.col#footer-2-1-3-desktop"
+    ]
+  },
+  "flex-layout.col#footer-2-1-1-desktop":{
+    "children": [
+      "rich-text#title-footer-1",
+      "rich-text#content-footer-1",
+      "flex-layout.row#social-networks"
+    ]
+  },
+  "rich-text#title-footer-1":{
+    "props": {
+      "blockClass":"title-footer",
+      "text": "### FALE CONOSCO"
+    }
+  },
+  "rich-text#content-footer-1":{
+    "props": {
+      "blockClass":"whats-footer",
+      "text": "![WhatsApp](/arquivos/whatsapp.svg) (41) 3221-6050"
+    }
+  },
+  "flex-layout.row#social-networks":{
+    "props":{
+      "blockClass":"social-networks"
+    },
+    "children": [
+      "rich-text#facebook",
+      "rich-text#instagram",
+      "rich-text#youtube"
+    ]
+  },
+  "rich-text#facebook":{
+    "props": {
+      "text": "[![Facebook](/arquivos/facebook.png)](http://www.facebook.com.br)"
+    }
+  },
+  "rich-text#instagram":{
+    "props": {
+      "text": "[![Instagram](/arquivos/instagram.png)](http://www.instagram.com.br)"
+    }
+  },
+  "rich-text#youtube":{
+    "props": {
+      "text": "[![Youtube](/arquivos/youtube.png)](http://www.youtube.com.br)"
+    }
+  },
+  "flex-layout.col#footer-2-1-2-desktop":{
+    "children": [
+      "rich-text#title-footer-2",
+      "vtex.menu@2.x:menu#menu-footer-1"
+    ]
+  },
+  "rich-text#title-footer-2":{
+    "props": {
+      "blockClass":"title-footer",
+      "text": "### INSTITUCIONAL"
+    }
+  },
+  "flex-layout.col#footer-2-1-3-desktop":{
+    "children": [
+      "rich-text#title-footer-3",
+      "vtex.menu@2.x:menu#menu-footer-2"
+    ]
+  },
+  "rich-text#title-footer-3":{
+    "props": {
+      "blockClass":"title-footer",
+      "text": "### AJUDA"
+    }
+  },
+  "flex-layout.row#footer-2-2-desktop":{
+    "props":{
+      "blockClass":"baserow-footer"
+    },
+    "children": [
+      "flex-layout.col#footer-2-2-1-desktop",
+      "flex-layout.col#footer-2-2-2-desktop"
+    ]
+  },
+  "flex-layout.col#footer-2-2-1-desktop":{
+    "children": [
+      "rich-text#title-footer-4",
+      "rich-text#accepted-payment-methods"
+    ]
+  },
+  "rich-text#title-footer-4":{
+    "props": {
+      "blockClass":"title-footer",
+      "text": "### FORMAS DE PAGAMENTO"
+    }
+  },
+  "flex-layout.col#footer-2-2-2-desktop":{
+    "children": [
+      "rich-text#title-footer-5",
+      "flex-layout.row#seals"
+    ]
+  },
+  "rich-text#title-footer-5":{
+    "props": {
+      "blockClass":"title-footer",
+      "text": "### SELOS E SEGURANÇA"
+    }
+  },
+  "flex-layout.row#seals":{
+    "props":{
+      "blockClass":"seals-footer"
+    },
+    "children": [
+      "rich-text#google",
+      "rich-text#jobscommerce"
+    ]
+  },
+  "rich-text#google":{
+    "props": {
+      "text": "[![Google](/arquivos/google.png)](http://www.google.com.br)"
+    }
+  },
+  "rich-text#jobscommerce":{
+    "props": {
+      "text": "[![Jobscommerce](/arquivos/jobscommerce.png)](https://jobspace.com.br/commerce/)"
+    }
+  },
+  "rich-text#accepted-payment-methods": {
+    "props": {
+      "blockClass": "payment-methods",
+      "text": "![Bandeiras](/arquivos/bandeiras.png)"
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "Fotos meramente ilustrativas | Ofertas válidas enquanto durarem nossos estoques | Vendas sujeitas a análise e confirmação de dados. Os preços, promoções e condições de pagamento são válidos exclusivamente para compras efetuadas em nossa loja virtual. Todos os produtos estão sujeitos a disponibilidade de estoque - Evangelizar - CNPJ: 00.000.000/0001-05 *Copyright - 2020*",
+      "blockClass": "footer"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "newsletter-form",
+      "flex-layout.row#footer-2-1-mobile",
+      "flex-layout.row#footer-2-2-mobile",
+      "flex-layout.row#footer-2-3-mobile",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "flex-layout.row#footer-2-1-mobile":{
+    "children":[
+      "flex-layout.col#footer-2-1-1-desktop"
+    ]
+  },
+  "flex-layout.row#footer-2-2-mobile":{
+    "props":{
+      "blockClass":"menus-footer"
+    },
+    "children":[
+      "flex-layout.col#footer-2-1-2-desktop",
+      "flex-layout.col#footer-2-1-3-desktop"
+    ]
+  },
+  "flex-layout.row#footer-2-3-mobile":{
+    "children":[
+      "flex-layout.col#footer-2-3-mobile"
+    ]
+  },
+  "flex-layout.col#footer-2-3-mobile":{
+    "children":[
+      "flex-layout.row#footer-2-2-desktop"
+    ]
+  }
+}

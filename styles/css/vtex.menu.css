@@ -1,0 +1,94 @@
+.submenu .styledLinkContent{
+    color: #333;
+    font-weight:normal;
+    font-size:12px;
+    padding: 10px;
+    margin: 0 10px 2px 0;
+    background: #f5f5f5;
+    transition: 0.3s;
+}
+.submenu .styledLinkContent:hover{
+    background: #eaeaea;
+}
+.menuContainer--menu-principal .menuItem{
+    list-style:disc;
+}
+.menuContainer--menu-principal .menuItem--noicon,
+.menuContainer--menu-principal .submenu .menuItem{
+    list-style:none;
+}
+.menuContainer--menu-principal .submenu .styledLinkContainer{
+    margin:0;
+    padding:0;
+}
+.menuContainer--menu-principal .styledLinkContainer{
+    margin:0 1rem 0 0;
+    padding:1rem 1rem 1rem 0;
+}
+.menuContainer--menu-principal .submenuWrapper{
+    padding:10px;
+    width:465px;
+    border:0;
+    margin:0;
+    border-radius:5px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.30);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.30);
+}
+
+.submenu .styledLinkContent--menu-ver-todos{
+    font-weight:bold;
+    margin-top:30px;
+}
+.menuContainer--menu-principal .submenuWrapper .menuContainerNav,
+.menuContainerNav{width:100%;}
+.menuContainer--menu-footer .styledLinkContainer{margin:0;}
+.menuContainer--menu-footer .styledLinkContent{
+    color:#333;
+    font-size:14px;
+}
+.menuContainer--menu-footer{margin-bottom:80px}
+.menuContainerNav--category-menu-mobile{
+    background:#C40E29;
+    color:#fff;
+    padding:10px 0;
+    height:100%;
+}
+.menuContainerNav--category-menu-mobile .styledLinkContent{
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
+    text-transform:uppercase;
+    padding:10px 0 18px;
+    border-bottom:1px solid #fff;
+}
+.menuContainerNav--category-menu-mobile .submenuAccordion .styledLinkContent{
+    border-bottom:0;
+    padding:5px 0;
+    font-weight:normal;
+    font-size:12px;
+}
+.accordionIcon{
+    font-size:0;
+    margin:5px 0 0;
+}
+.accordionIcon::after{
+    content:"";
+    display:inline-block;
+    width:19px;
+    height:10px;
+    background:url(/arquivos/icon-arrow.svg) no-repeat;
+    transition:.5s ease all;
+}
+.accordionIcon--isOpen::after{
+    transform:rotate(180deg);
+    transition:.5s ease all;
+}
+@media only screen and (max-width: 639px) {
+    .menuContainerNav--menu-footer{text-align:center;}
+    .menuContainer--menu-footer{
+        align-items:center;
+        margin-bottom:50px;
+    }
+    .menuContainer--category-menu-mobile .styledLinkContainer{margin:0 1rem;}
+}

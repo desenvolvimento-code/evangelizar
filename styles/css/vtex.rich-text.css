@@ -1,0 +1,222 @@
+.paragraph--text-top{
+  font-size:12px;
+  padding:.3rem;
+  color:#333;
+}
+.paragraph--text-top,
+.paragraph--doacao{
+  margin:0;
+  text-transform:uppercase;
+}
+.paragraph--doacao{
+  font-size:14px;
+  line-height:1.2;
+}
+.link--text-top{color:#333;}
+.link--doacao{
+  display: block;
+  background: #eee;
+  color:#3595b2;
+  text-decoration:none;
+  padding: 8px 10px;
+  text-align: center;
+  border-radius: 10px;
+  width: 130px;
+  margin: 18px 30px 0 0;
+}
+/* .wrapper--doacao{
+  background:#eee;
+  color:#3595b2;
+  width:130px;
+  border-radius:10px;
+  padding:9px;
+  text-align:center;
+  margin-top:18px;
+  margin-right:30px;
+} */
+.paragraph--deals{
+  font-size:12px;
+  color:#213C84;
+}
+.strong--deals{
+  display:block;
+  font-size:16px;
+}
+.italic--deals{
+  display:block;
+  font-style:normal;
+}
+.image--text-top{
+  display:inline-block;
+  vertical-align:middle;
+}
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-size:30px;
+  font-weight:bold;
+  color:#213C84;
+  margin:40px 0 20px;
+}
+.wrapper--specifications{width:100%;}
+.wrapper--specifications .headingLevel5{
+  color:#213C84;
+  font-size:25px;
+  font-weight:bold;
+  border-bottom:1px solid #E8E8E8;
+  text-align:center;
+  text-transform:uppercase;
+  padding-bottom:5px;
+  margin:20px 0 10px;
+}
+.container--deals .paragraph {
+  margin: 0;
+}
+.heading--selos-title{
+  font-size:13px;
+  font-weight:bold;
+  color:#213C84;
+  text-transform:uppercase;
+}
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+.container--newsletter{
+  color:#fff;
+  font-size:15px;
+  margin-right:40px;
+}
+.strong--newsletter{
+  display:block;
+  font-size:18px;
+}
+.paragraph--footer{
+  text-align:center;
+  color:#9F9F9F;
+  font-size:12px;
+  margin:20px 40px;
+}
+.heading--title-footer{
+  color:#213C84;
+  font-size:13px;
+  margin:10px 0 20px;
+  font-weight:bold;
+}
+.paragraph--whats-footer{
+  color:#333;
+  font-size:13px;
+  margin:0 0 20px;
+}
+.paragraph--footer .italic{
+  display:block;
+  font-style:normal;
+}
+.paragraph--payment-methods{margin:0 0 20px;}
+.paragraph--newsletter{
+  margin:25px 0;
+}
+.paragraph--title-menu{margin:0 0 10px;}
+.container--text-top{
+  justify-content: flex-end;
+}
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
+.link--meus-pedidos{
+  color:#333;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:15px;
+}
+.paragraph--meus-pedidos{padding:0 20px;}
+@media only screen and (max-width: 639px) {
+  .italic--deals{display:inline;}
+  .strong--deals{font-size:12px;}
+  .paragraph--deals{font-size:9px;}
+  .paragraph--meus-pedidos::before{
+    content:"";
+    display:inline-block;
+    vertical-align:middle;
+    width:28px;
+    height:24px;
+    background:url(/arquivos/pedidos.svg);
+    margin-right:10px;
+  }
+  .container--title-footer,
+  .container--whats-footer,
+  .container--payment-methods{justify-content:center;}
+  .container--title-footer{margin-top:20px;}
+  .container--newsletter{
+    margin-right:0;
+    text-align:center;
+  }
+  .wrapper--newsletter{width:100%;}
+  
+}
